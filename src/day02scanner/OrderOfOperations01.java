@@ -26,18 +26,9 @@ public class OrderOfOperations01 {
 		
 		//Modulus operator is used to find the digit of a number
 		int c = 23456718;
-		//What is the last digit of number a?
+		//What is the last digit of number c?
 		System.out.println(c%10);
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
