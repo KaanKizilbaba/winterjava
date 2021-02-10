@@ -73,13 +73,7 @@ public class StringManipulation01 {
 		String r = "Learn Java, earn money";	
 		System.out.println(r.contains("e"));//true	
 		System.out.println(r.contains("x"));//false
-		
 		System.out.println(r.contains("earn"));//true
-		
-		
-			
-			
-		
 
 	}
 
