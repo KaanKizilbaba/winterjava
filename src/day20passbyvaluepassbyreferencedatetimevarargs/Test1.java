@@ -1,4 +1,4 @@
-package day20passbyvaluepassbyreferencedate;
+package day20passbyvaluepassbyreferencedatetimevarargs;
 
 public class Test1 {
 
@@ -15,13 +15,8 @@ public class Test1 {
 		System.out.println(a);//2cfalse
 		
 		System.out.println(a=="2cfalse");//false
-		
-		
-		
-		
-		
-		
-		System.out.println(a.equals("2cfalse"));
+
+		System.out.println(a.equals("2cfalse"));//true
 
 	}
 

@@ -1,4 +1,4 @@
-package day20passbyvaluepassbyreferencedate;
+package day20passbyvaluepassbyreferencedatetimevarargs;
 
 public class Varargs01 {
 	

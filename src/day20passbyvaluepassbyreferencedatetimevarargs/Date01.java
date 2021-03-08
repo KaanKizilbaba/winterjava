@@ -1,4 +1,4 @@
-package day20passbyvaluepassbyreferencedate;
+package day20passbyvaluepassbyreferencedatetimevarargs;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
