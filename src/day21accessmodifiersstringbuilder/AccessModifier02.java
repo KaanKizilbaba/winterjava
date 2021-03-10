@@ -20,7 +20,7 @@ public class AccessModifier02 {
 		
 		AccessModifier01 obj1 = new AccessModifier01();
 		System.out.println(obj1.name);
-		
+
 		System.out.println(obj1.shoolName);
 		
 		AccessModifier03 obj2 = new AccessModifier03();

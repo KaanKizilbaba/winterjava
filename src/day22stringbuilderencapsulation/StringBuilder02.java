@@ -1,30 +1,29 @@
-package day21accessmodifiersstringbuilder;
+package day22stringbuilderencapsulation;
 
-import java.time.LocalTime;
-
-public class StringBuilder03 {
+public class StringBuilder02 {
+	
+	/*
+	 	In StringBuilder we use "append()", in String we use "concat()" or "+"
+	*/
 
 	public static void main(String[] args) {
 		
-		long startingTimeSb = System.nanoTime();
 		StringBuilder sb1 = new StringBuilder();
+		
+		long startingTimeSb = System.nanoTime();
 		for(int i=0; i<1000; i++) {
 			sb1.append("abc");
 		}
 		long endingTimeSb = System.nanoTime();
-		
 		System.out.println(endingTimeSb - startingTimeSb);
 		
-		long startingTimeStr = System.nanoTime();
-		String sb2 = "";
+		
+		String str1 = new String();
 		for(int i=0; i<1000; i++) {
-			sb2 = sb2.concat("abc");
+			str1.concat("abc");
 		}
 		long endingTimeStr = System.nanoTime();
-		
-		System.out.println(endingTimeStr - startingTimeStr);
-
-
+		System.out.println(endingTimeStr - endingTimeSb);
 	}
 
 }
