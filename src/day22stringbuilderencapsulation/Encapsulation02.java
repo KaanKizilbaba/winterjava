@@ -6,11 +6,11 @@ public class Encapsulation02 {
 		
 		Encapsulation01 obj1 = new Encapsulation01();
 		
-		System.out.println(obj1.getSsn().equals("1234"));
+		System.out.println(obj1.getSsn().equals("1234"));//false
 		
 		obj1.setSsn("1234");
 		
-		System.out.println(obj1.getSsn().equals("1234"));
+		System.out.println(obj1.getSsn().equals("1234"));//true
 
 	}
 

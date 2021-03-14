@@ -8,7 +8,7 @@ public class Encapsulation01 {
 	  		a)Make the variables private
 	  		b)To read private variables values create get methods (getters)
 	  		c)To update private variables create set methods (setter)
-	 */
+	*/
 	
 	private String ssn = "123456789";
 	private int salary = 12345;
