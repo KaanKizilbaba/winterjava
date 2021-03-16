@@ -13,6 +13,8 @@ public class Runner {
 		
 		Audi audi1 = new Audi();
 		audi1.move();
+		
+		Animal obj = new Dog();
 
 	}
 

@@ -13,6 +13,8 @@ public class Audi extends Car{
 	 	        So, we do not change "method signature" in method overriding
 	*/
 	
+	
+	//Can I use both "overridden" and "overriding" methods in child class?
 	@Override
 	public void move() {
 		System.out.println("Audi moves very fast...");
@@ -23,6 +25,6 @@ public class Audi extends Car{
 		System.out.println("Audi is expensive");
 	}
 	
-	//Can I use both "overridden" and "overriding" method in child class?
+	//Polymorphism = Method Overloading + Method Overriding
 
 }
