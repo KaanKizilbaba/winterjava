@@ -15,7 +15,7 @@ public class Exc05 {
 	 	  because when you use just parent it will cover the child.
 	 */
 
-	public static void main(String[] args) throws IOException, FileNotFoundException {
+	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
 		FileInputStream fis = new FileInputStream("/Users/apple/Downloads/eclipse-workspace/winterjava/src/dayoverridingexceptions/fileForExc.txt");
 		
