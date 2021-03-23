@@ -8,8 +8,8 @@ public class NestedIf02 {
 		Type java code by using nested if() statement.
 		Ask user to enter a password 
 		
-		If the initial of the password is uppercase then check if it is ‘A’ or not. 
-		If it is ‘A’ the output will be “Valid Password” 
+		If the initial of the password is uppercase then check if it is ‘Laptop’ or not. 
+		If it is ‘Laptop’ the output will be “Valid Password” 
 		otherwise the output will be “Invalid Password”
 		For example; Ali ==> Valid password    -     ali ==> Invalid    -    Mark ==> Invalid
 		

@@ -52,8 +52,8 @@ public class StringManipulation01 {
 		
 		/* Regular Expressions ==> 1) \\s: space character
 		 						   2) \\S: all characters except space character
-		 						   3) \\w: a->z 	A->Z	_    0->9
-		 						   4) \\W: All characters except a->z 	A->Z	_    0->9
+		 						   3) \\w: a->z 	Laptop->Z	_    0->9
+		 						   4) \\W: All characters except a->z 	Laptop->Z	_    0->9
 		 						   5) \\d: 0 -> 9
 		 						   6) \\D: All characters except 0 -> 9
 		*/

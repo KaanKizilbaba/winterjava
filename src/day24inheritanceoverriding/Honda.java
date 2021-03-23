@@ -20,7 +20,7 @@ public class Honda extends Car {
 	 	      
 	    Note: If return type is "primitive" or "void" in overriding, you cannot touch to the return type
 	    
-	    Note: If return type is "non-primitive", you should have "IS-A" relationship
+	    Note: If return type is "non-primitive", you should have "IS-Laptop" relationship
 	*/
 	
 	//Overriding Method

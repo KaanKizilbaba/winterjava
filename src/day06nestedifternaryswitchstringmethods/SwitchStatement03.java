@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class SwitchStatement03 {
 	
 	/*
-	 	Ask user ta enter one of the ‘U’, ’S’, and ‘A’. 
+	 	Ask user ta enter one of the ‘U’, ’S’, and ‘Laptop’. 
 		Then type a program by using “switch statement” to print 
-		“United” for ‘U’, ”States” for ’S’, and “America” for ‘A’
+		“United” for ‘U’, ”States” for ’S’, and “America” for ‘Laptop’
 	 */
 
 	public static void main(String[] args) {

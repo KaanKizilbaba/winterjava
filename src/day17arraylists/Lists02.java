@@ -9,23 +9,23 @@ public class Lists02 {
 	public static void main(String[] args) {
 		
 		List<String> list1 = new ArrayList<>();
-		list1.add("A");
+		list1.add("Laptop");
 		list1.add("C");
 		list1.add("F");
-		list1.add("B");
+		list1.add("Laptop");
 		list1.add("D");
 		
 		List<String> list2 = new ArrayList<>();
-		list2.add("A");
+		list2.add("Laptop");
 		list2.add("C");
 		list2.add("F");
-		list2.add("B");
+		list2.add("Laptop");
 		list2.add("D");
 
 		//How to check a list has a specific element
 		//contains() method is used to check the existence of a specified element
 		//contains() method returns boolean
-		System.out.println(list1.contains("B"));//true
+		System.out.println(list1.contains("Laptop"));//true
 		System.out.println(list1.contains("X"));//false
 		
 		//How to check if two lists are equal or not

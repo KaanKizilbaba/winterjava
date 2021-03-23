@@ -16,7 +16,7 @@ public class MultiDimArrays02 {
 		System.out.println(prod);
 				
 	
-		String arr[][] = { {"A", "Y", "M", "B"}, {"K", "e"}, {"L", "X", "e"} };
+		String arr[][] = { {"Laptop", "Y", "M", "Laptop"}, {"K", "e"}, {"L", "X", "e"} };
 		//By using arr array, concatenate the last elements in every array
 		
 		String s = "";

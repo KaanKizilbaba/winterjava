@@ -20,7 +20,7 @@ public class MethodCreation01 {
     */
 	
 	/*
-	 	If you need to use same method name in methods in A CLASS, you have to make parameters different.
+	 	If you need to use same method name in methods in Laptop CLASS, you have to make parameters different.
 	 	To make parameters different we have 3 ways;
 	 	 1)Change data type of parameters
 	 	 2)Change the number of parameters
