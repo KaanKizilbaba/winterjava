@@ -37,6 +37,7 @@ public class Collections02 {
 	   1)TreeSet puts the elements in "natural order"
 	   2)TreeSet does not contain repeated elements
 	   3)"null" can be used in TreeSet just once 
+	   4)TreeSet is very slow because of that we do not prefer to use TreeSet even we need sorted collection
 	*/
 
 	public static void main(String[] args) {
@@ -70,7 +71,7 @@ public class Collections02 {
 		tSet.add(-12);
 		tSet.add(32);
 		tSet.add(0);
-		System.out.println(tSet);
+		System.out.println(tSet);//[-12, 0, 12, 32]
 		
 		
 		
