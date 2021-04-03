@@ -46,34 +46,7 @@ public class TreeMap01 {
 		System.out.println(tm.headMap(13, true));//{4=Angie Moon, 12=Ali Can, 13=Veli Han}
 		
 		System.out.println(tm.tailMap(13));//{13=Veli Han, 21=Mary Star, 123=Tom Hanks}
-		
-		System.out.println(tm.tailMap(13, false));
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
+		System.out.println(tm.tailMap(13, false));//{21=Mary Star, 123=Tom Hanks}
 
 	}
 
