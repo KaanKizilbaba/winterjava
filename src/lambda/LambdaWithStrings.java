@@ -30,6 +30,12 @@ public class LambdaWithStrings {
         getCharAndLength(list);
         System.out.println();
         removeLessThanFive(list);
+        System.out.println();
+        System.out.println(checkLength(list));//false
+        System.out.println();
+        System.out.println(checkAnyLength(list));
+        System.out.println();
+        System.out.println(checkNoLength(list));
 
 	}
 	
@@ -85,24 +91,40 @@ public class LambdaWithStrings {
 	}
 	/*
 	  6)Use "Functional Programming"
-	  Create a method to remove the element if the length is less than 5
+	  Create a method to print the elements if the length is greater than 5
 	*/
 	public static void removeLessThanFive(List<String> l) {
 		
 		l.stream().filter(t->t.length()>=5).forEach(t->System.out.print(t + " "));
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	/*
+	 	7)Use "Functional Programming"
+	 	Create a method to check if the length of all elements are greater than 3
+	 */
+	public static boolean checkLength(List<String> l) {
+		
+		return l.stream().allMatch(t->t.length()>3);
+
+	}
+	/*
+	 	8)Use "Functional Programming"
+	 	Create a method to check if the length of any element is 4
+    */
+	public static boolean checkAnyLength(List<String> l) {
+		
+		return l.stream().anyMatch(t->t.length()==4);
+
+	}
+	/*
+	 	9)Use "Functional Programming"
+	 	Create a method to check if no element has length 11
+    */
+	public static boolean checkNoLength(List<String> l) {
+		
+		return l.stream().noneMatch(t->t.length()==11);
+
+	}
 
 }
 
