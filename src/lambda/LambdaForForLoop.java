@@ -93,4 +93,7 @@ public class LambdaForForLoop {
 		return IntStream.iterate(7, t->t+2).limit(num).reduce(1, Math::multiplyExact);
 	}
 
+//	ytugh
+	
+	
 }
